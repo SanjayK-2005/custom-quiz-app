@@ -75,30 +75,7 @@ The implementation can be found in `app/lib/gemini.js`.
 1. Get your API key from [Google AI Studio](https://ai.google.dev/)
 2. Add it to your `.env.local` file as `NEXT_PUBLIC_GEMINI_API_KEY`
 
-## Project Structure
 
-```
-custom-quiz-app/
-├── app/
-│   ├── api/                # API routes
-│   │   ├── explain/        # Explanation generation API
-│   │   └── quiz/           # Quiz generation API
-│   ├── components/         # Reusable components
-│   ├── dashboard/          # Quiz configuration page
-│   ├── lib/                # Utility functions
-│   │   └── gemini.js       # Gemini API integration
-│   ├── login/              # Authentication page
-│   ├── quiz/               # Quiz display page
-│   ├── globals.css         # Global styles
-│   ├── layout.js           # Root layout
-│   ├── page.js             # Home page
-│   └── providers.js        # Theme provider
-├── public/                 # Static assets
-├── .env.local              # Environment variables
-├── next.config.mjs         # Next.js configuration
-├── package.json            # Project dependencies
-└── README.md               # Project documentation
-```
 
 ## Customizing the Quiz
 
