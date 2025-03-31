@@ -115,19 +115,7 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="w-full py-8 px-4 border-t border-gray-200 dark:border-gray-800 bg-white/90 dark:bg-background/90 backdrop-blur-sm">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-sm text-gray-600 dark:text-gray-400">© 2024 AI-Powered Quiz. All rights reserved.</p>
-          <nav className="flex gap-6 mt-4 sm:mt-0">
-            <Link className="text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors" href="#">
-              Terms of Service
-            </Link>
-            <Link className="text-sm text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors" href="#">
-              Privacy
-            </Link>
-          </nav>
-        </div>
-      </footer>
+      
     </div>
   );
 }
