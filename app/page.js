@@ -41,7 +41,7 @@ export default function Home() {
               AI-Powered Custom Quiz Platform
             </motion.h1>
             <motion.p 
-              className="text-xl md:text-2xl text-gray-800 dark:text-gray-200 mb-8"
+              className="text-xl md:text-2xl text-gray-200 mb-8"
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
